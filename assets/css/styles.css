@@ -9,6 +9,17 @@
   padding: 0 20px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Regular", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
 .btn {
   border-radius: 12px;
   padding: 10px 20px;
@@ -18,6 +29,29 @@
   background-color: red;
   text-decoration: none;
   color: white;
+}
+
+.flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-border {
+  border: 1px solid white;
+  border-radius: 12px;
+  width: 30%;
+}
+.card-border .card-content {
+  color: white;
+  padding: 10px;
+  margin: 0;
+  max-height: 100%;
+}
+.card-border .card-img img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .navbar ul {
@@ -60,6 +94,14 @@
   padding: 10px;
   text-decoration: none;
   color: black;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+.title h2 {
+  color: red;
 }
 
 header {
