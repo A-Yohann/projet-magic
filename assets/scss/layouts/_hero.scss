@@ -1,0 +1,22 @@
+#hero{
+    background-image: url(../img/banner.webp);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.flex-banner{
+    width: 50%;
+    padding-top: 20%;
+    margin-left: 10%;
+}
+.card-banner{
+        background-color: rgba(233, 233, 233, 0.63);
+        padding: 25px;
+        border-radius: 12px;
+        h1{
+            color: red;
+            margin: 0;
+        }   
+}

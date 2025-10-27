@@ -1,0 +1,30 @@
+#solde{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    .flex-solde{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span{
+            background-color: rgba(233, 233, 233, 0.329);
+            padding: 5px;
+        }
+        a{  
+        display: inline-block ;
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    
+        }
+    }
+    
+}
+
+
+// $color-main: #0f1217;
+// $color-accent: #b33113;
+// $color-white: #fff;
+// $color-black: #0a0b0d;
