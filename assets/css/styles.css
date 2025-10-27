@@ -164,6 +164,120 @@ body {
   max-width: 100%;
 }
 
+.produits {
+  text-align: center;
+  color: white;
+}
+.produits h2 {
+  color: red;
+}
+
+.flex-produits {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flex-produits .bg-produits-1 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/bfheuakyrubvwr448i.webp);
+  height: 600px;
+  width: 350px;
+}
+.flex-produits .bg-produits-1 .overlay {
+  padding-top: 35dvh;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+.flex-produits .bg-produits-1 .overlay img {
+  width: 70%;
+}
+.flex-produits .bg-produits-2 {
+  background-image: url(../img/Bniwbiedb2.webp);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 350px;
+}
+.flex-produits .bg-produits-2 .overlay {
+  padding-top: 35dvh;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+.flex-produits .bg-produits-2 .overlay img {
+  width: 70%;
+}
+.flex-produits .bg-produits-3 {
+  background-image: url(../img/BbvlL835T_CMM_420x700.webp);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 350px;
+}
+.flex-produits .bg-produits-3 .overlay {
+  padding-top: 35dvh;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+.flex-produits .bg-produits-3 .overlay img {
+  width: 70%;
+}
+.flex-produits .bg-produits-4 {
+  background-image: url(../img/Cwtyiugh346-420x700.webp);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 350px;
+}
+.flex-produits .bg-produits-4 .overlay {
+  padding-top: 35dvh;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+.flex-produits .bg-produits-4 .overlay img {
+  width: 70%;
+}
+
+footer {
+  background-color: black;
+}
+footer .flex-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+footer .flex-footer .logo-footer {
+  margin: 0;
+  padding: 0;
+}
+footer .flex-footer .logo-footer p {
+  color: white;
+  margin: 0;
+  padding-left: 45px;
+}
+footer .flex-footer .navbar-footer {
+  width: 30%;
+}
+footer .flex-footer .navbar-footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  list-style: none;
+}
+footer .flex-footer .navbar-footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .flex-footer .mention {
+  color: white;
+}
+
 header {
   background-color: black;
   display: flex;
@@ -185,7 +299,7 @@ header img {
 
 .flex-banner {
   width: 50%;
-  padding-top: 20%;
+  padding-top: 15%;
   margin-left: 10%;
 }
 
