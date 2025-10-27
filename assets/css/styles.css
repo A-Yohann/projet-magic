@@ -1,3 +1,12 @@
-
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
+}
+.container {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
 /*# sourceMappingURL=styles.css.map */
