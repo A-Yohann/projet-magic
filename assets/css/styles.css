@@ -17,7 +17,7 @@ body {
   font-family: "Roboto Regular", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #333;
+  background-color: black;
 }
 
 .btn {
@@ -47,6 +47,8 @@ body {
   border: 1px solid white;
   border-radius: 12px;
   width: 30%;
+  position: relative;
+  overflow: hidden;
 }
 .card-border .card-content {
   color: white;
@@ -62,18 +64,22 @@ body {
   margin: 2px;
   padding: 2px;
 }
-.card-border .card-img {
-  position: relative;
-}
 .card-border .card-img img {
+  display: block;
   width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
 .card-border .card-tag {
   position: absolute;
-  top: 1em;
-  left: 1em;
+  top: 10px;
+  left: 10px;
+}
+.card-border .card-tag a {
+  background-color: red;
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-decoration: none;
   color: white;
 }
 
