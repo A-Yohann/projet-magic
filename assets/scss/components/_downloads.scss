@@ -1,0 +1,37 @@
+#downloads{
+    background-image: url(../img/latest-products-bg.webp);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    
+    .flex-downloads{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 8em;
+        color: white;
+        .downloads-content{
+            
+            h2{
+                color: red;
+                margin-top: 0;
+            }ol{
+                gap: 10px;
+            }li{
+                border: 1px solid grey;
+                border-radius: 8px;
+                list-style: none;
+                padding: 10px;
+                margin: 10px;
+            }.btn-downloads{
+                padding: 20px;
+                a{
+                    margin: 8px;
+                }
+            }
+            
+        }      
+    }.downloads-img{
+        max-width: 100%;
+    }
+}

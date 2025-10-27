@@ -10,22 +10,37 @@
     border-radius: 12px;
     width: 30%;
     
-   
     .card-content{
         color: white;
         padding: 10px;
         margin: 0;
         max-height: 100%;
+
+        a{
+            border: 1px solid grey;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            margin: 2px;
+            padding: 2px;
+        }
         
         
     }
     .card-img{
+        position: relative;
 
         img{
         width: 100%;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
+        
         }
+        }.card-tag{
+            position: absolute;
+            top: 1em;
+            left: 1em;
+            color: white;
         }
 }
 
