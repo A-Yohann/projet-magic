@@ -146,11 +146,22 @@ body {
   padding: 8em;
   color: white;
 }
+#downloads .flex-downloads .downloads-content {
+  max-width: 50%;
+  color: white;
+}
+#downloads .flex-downloads .downloads-content p {
+  margin: 0 0 1em 0;
+}
 #downloads .flex-downloads .downloads-content h2 {
   color: red;
   margin-top: 0;
 }
 #downloads .flex-downloads .downloads-content ol {
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 #downloads .flex-downloads .downloads-content li {
@@ -158,7 +169,7 @@ body {
   border-radius: 8px;
   list-style: none;
   padding: 10px;
-  margin: 10px;
+  margin: 0;
 }
 #downloads .flex-downloads .downloads-content .btn-downloads {
   padding: 20px;
